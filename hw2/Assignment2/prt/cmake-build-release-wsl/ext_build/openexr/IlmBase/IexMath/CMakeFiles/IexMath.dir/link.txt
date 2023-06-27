@@ -1,0 +1,2 @@
+/usr/bin/ar qc libIexMath.a  CMakeFiles/IexMath.dir/IexMathFloatExc.cpp.o CMakeFiles/IexMath.dir/IexMathFpu.cpp.o
+/usr/bin/ranlib libIexMath.a

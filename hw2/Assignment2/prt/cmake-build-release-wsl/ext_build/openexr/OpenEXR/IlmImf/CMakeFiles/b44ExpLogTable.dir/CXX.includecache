@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../ext/openexr/IlmBase/Half/half.h
+halfExport.h
+../ext/openexr/IlmBase/Half/halfExport.h
+iostream
+-
+
+../ext/openexr/IlmBase/Half/halfExport.h
+
+/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/openexr/OpenEXR/IlmImf/b44ExpLogTable.cpp
+half.h
+-
+math.h
+-
+iostream
+-
+iomanip
+-
+
