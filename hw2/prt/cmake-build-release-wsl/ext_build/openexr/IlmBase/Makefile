@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt
+CMAKE_SOURCE_DIR = /mnt/e/Games202/hw2/prt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl
+CMAKE_BINARY_DIR = /mnt/e/Games202/hw2/prt/cmake-build-release-wsl
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -94,7 +94,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && /usr/bin/cpack --config ./CPackSourceConfig.cmake /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CPackSourceConfig.cmake
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && /usr/bin/cpack --config ./CPackSourceConfig.cmake /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -138,7 +138,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -148,14 +148,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/openexr/IlmBase/CMakeFiles/progress.marks
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles 0
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/openexr/IlmBase/CMakeFiles/progress.marks
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/clean
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/clean
 .PHONY : clean
 
 # The main clean target
@@ -165,17 +165,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/preinstall
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/preinstall
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -203,6 +203,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

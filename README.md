@@ -88,3 +88,25 @@ $$
 ## 作业3 SSR(Screen Space Reflection)
 
 ![](https://raw.githubusercontent.com/lxcug/imgs/main/imgsIMG_7864.JPG)
+
+### 1. 计算shading point入射的radiance以及BSDF
+
+**Incident radiance + visibility**
+
+![](https://raw.githubusercontent.com/lxcug/imgs/main/imgs20230627220905.png)
+
+**BSDF**: diffuse材质，首先读取GBuffer中的diffuse对应的albedo，然后乘上cosine term
+
+![](https://raw.githubusercontent.com/lxcug/imgs/main/imgs20230627224512.png)
+
+### 2. Screen Space Ray Marching
+
+for循环的上限决定搜索hitPos的范围
+
+![](https://raw.githubusercontent.com/lxcug/imgs/main/imgs20230627225053.png)
+
+### 3. 间接光照
+
+![](https://raw.githubusercontent.com/lxcug/imgs/main/imgs20230627225308.png)
+
+![](https://raw.githubusercontent.com/lxcug/imgs/main/imgs20230627225327.png)

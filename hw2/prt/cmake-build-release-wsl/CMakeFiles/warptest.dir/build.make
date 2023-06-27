@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt
+CMAKE_SOURCE_DIR = /mnt/e/Games202/hw2/prt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl
+CMAKE_BINARY_DIR = /mnt/e/Games202/hw2/prt/cmake-build-release-wsl
 
 # Include any dependencies generated for this target.
 include CMakeFiles/warptest.dir/depend.make
@@ -59,81 +59,81 @@ include CMakeFiles/warptest.dir/flags.make
 
 CMakeFiles/warptest.dir/src/warp.cpp.o: CMakeFiles/warptest.dir/flags.make
 CMakeFiles/warptest.dir/src/warp.cpp.o: ../src/warp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/warptest.dir/src/warp.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/warptest.dir/src/warp.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/src/warp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/warptest.dir/src/warp.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/warptest.dir/src/warp.cpp.o -c /mnt/e/Games202/hw2/prt/src/warp.cpp
 
 CMakeFiles/warptest.dir/src/warp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/warptest.dir/src/warp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/src/warp.cpp > CMakeFiles/warptest.dir/src/warp.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/src/warp.cpp > CMakeFiles/warptest.dir/src/warp.cpp.i
 
 CMakeFiles/warptest.dir/src/warp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/warptest.dir/src/warp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/src/warp.cpp -o CMakeFiles/warptest.dir/src/warp.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/src/warp.cpp -o CMakeFiles/warptest.dir/src/warp.cpp.s
 
 CMakeFiles/warptest.dir/src/warptest.cpp.o: CMakeFiles/warptest.dir/flags.make
 CMakeFiles/warptest.dir/src/warptest.cpp.o: ../src/warptest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/warptest.dir/src/warptest.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/warptest.dir/src/warptest.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/src/warptest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/warptest.dir/src/warptest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/warptest.dir/src/warptest.cpp.o -c /mnt/e/Games202/hw2/prt/src/warptest.cpp
 
 CMakeFiles/warptest.dir/src/warptest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/warptest.dir/src/warptest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/src/warptest.cpp > CMakeFiles/warptest.dir/src/warptest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/src/warptest.cpp > CMakeFiles/warptest.dir/src/warptest.cpp.i
 
 CMakeFiles/warptest.dir/src/warptest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/warptest.dir/src/warptest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/src/warptest.cpp -o CMakeFiles/warptest.dir/src/warptest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/src/warptest.cpp -o CMakeFiles/warptest.dir/src/warptest.cpp.s
 
 CMakeFiles/warptest.dir/src/microfacet.cpp.o: CMakeFiles/warptest.dir/flags.make
 CMakeFiles/warptest.dir/src/microfacet.cpp.o: ../src/microfacet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/warptest.dir/src/microfacet.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/warptest.dir/src/microfacet.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/src/microfacet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/warptest.dir/src/microfacet.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/warptest.dir/src/microfacet.cpp.o -c /mnt/e/Games202/hw2/prt/src/microfacet.cpp
 
 CMakeFiles/warptest.dir/src/microfacet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/warptest.dir/src/microfacet.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/src/microfacet.cpp > CMakeFiles/warptest.dir/src/microfacet.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/src/microfacet.cpp > CMakeFiles/warptest.dir/src/microfacet.cpp.i
 
 CMakeFiles/warptest.dir/src/microfacet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/warptest.dir/src/microfacet.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/src/microfacet.cpp -o CMakeFiles/warptest.dir/src/microfacet.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/src/microfacet.cpp -o CMakeFiles/warptest.dir/src/microfacet.cpp.s
 
 CMakeFiles/warptest.dir/src/object.cpp.o: CMakeFiles/warptest.dir/flags.make
 CMakeFiles/warptest.dir/src/object.cpp.o: ../src/object.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/warptest.dir/src/object.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/warptest.dir/src/object.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/src/object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/warptest.dir/src/object.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/warptest.dir/src/object.cpp.o -c /mnt/e/Games202/hw2/prt/src/object.cpp
 
 CMakeFiles/warptest.dir/src/object.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/warptest.dir/src/object.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/src/object.cpp > CMakeFiles/warptest.dir/src/object.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/src/object.cpp > CMakeFiles/warptest.dir/src/object.cpp.i
 
 CMakeFiles/warptest.dir/src/object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/warptest.dir/src/object.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/src/object.cpp -o CMakeFiles/warptest.dir/src/object.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/src/object.cpp -o CMakeFiles/warptest.dir/src/object.cpp.s
 
 CMakeFiles/warptest.dir/src/proplist.cpp.o: CMakeFiles/warptest.dir/flags.make
 CMakeFiles/warptest.dir/src/proplist.cpp.o: ../src/proplist.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/warptest.dir/src/proplist.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/warptest.dir/src/proplist.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/src/proplist.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/warptest.dir/src/proplist.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/warptest.dir/src/proplist.cpp.o -c /mnt/e/Games202/hw2/prt/src/proplist.cpp
 
 CMakeFiles/warptest.dir/src/proplist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/warptest.dir/src/proplist.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/src/proplist.cpp > CMakeFiles/warptest.dir/src/proplist.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/src/proplist.cpp > CMakeFiles/warptest.dir/src/proplist.cpp.i
 
 CMakeFiles/warptest.dir/src/proplist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/warptest.dir/src/proplist.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/src/proplist.cpp -o CMakeFiles/warptest.dir/src/proplist.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/src/proplist.cpp -o CMakeFiles/warptest.dir/src/proplist.cpp.s
 
 CMakeFiles/warptest.dir/src/common.cpp.o: CMakeFiles/warptest.dir/flags.make
 CMakeFiles/warptest.dir/src/common.cpp.o: ../src/common.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/warptest.dir/src/common.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/warptest.dir/src/common.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/src/common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/warptest.dir/src/common.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/warptest.dir/src/common.cpp.o -c /mnt/e/Games202/hw2/prt/src/common.cpp
 
 CMakeFiles/warptest.dir/src/common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/warptest.dir/src/common.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/src/common.cpp > CMakeFiles/warptest.dir/src/common.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/src/common.cpp > CMakeFiles/warptest.dir/src/common.cpp.i
 
 CMakeFiles/warptest.dir/src/common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/warptest.dir/src/common.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/src/common.cpp -o CMakeFiles/warptest.dir/src/common.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/src/common.cpp -o CMakeFiles/warptest.dir/src/common.cpp.s
 
 # Object files for target warptest
 warptest_OBJECTS = \
@@ -157,7 +157,7 @@ warptest: CMakeFiles/warptest.dir/build.make
 warptest: ext_build/tbb/libtbb_static.a
 warptest: ext_build/nanogui/libnanogui.a
 warptest: CMakeFiles/warptest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable warptest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable warptest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/warptest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -170,6 +170,6 @@ CMakeFiles/warptest.dir/clean:
 .PHONY : CMakeFiles/warptest.dir/clean
 
 CMakeFiles/warptest.dir/depend:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles/warptest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/e/Games202/hw2/prt /mnt/e/Games202/hw2/prt /mnt/e/Games202/hw2/prt/cmake-build-release-wsl /mnt/e/Games202/hw2/prt/cmake-build-release-wsl /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles/warptest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/warptest.dir/depend
 

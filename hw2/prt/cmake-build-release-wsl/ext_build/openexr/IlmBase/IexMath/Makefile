@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt
+CMAKE_SOURCE_DIR = /mnt/e/Games202/hw2/prt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl
+CMAKE_BINARY_DIR = /mnt/e/Games202/hw2/prt/cmake-build-release-wsl
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -94,7 +94,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && /usr/bin/cpack --config ./CPackSourceConfig.cmake /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CPackSourceConfig.cmake
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && /usr/bin/cpack --config ./CPackSourceConfig.cmake /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -138,7 +138,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -148,14 +148,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/openexr/IlmBase/IexMath/CMakeFiles/progress.marks
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/IexMath/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles 0
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/openexr/IlmBase/IexMath/CMakeFiles/progress.marks
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/IexMath/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/IexMath/clean
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/IexMath/clean
 .PHONY : clean
 
 # The main clean target
@@ -165,22 +165,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/IexMath/preinstall
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/IexMath/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/IexMath/preinstall
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/IexMath/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/rule:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/rule
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/rule
 .PHONY : ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/rule
 
 # Convenience name for target.
@@ -190,7 +190,7 @@ IexMath: ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/rule
 
 # fast build rule for target.
 IexMath/fast:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/build.make ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/build
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/build.make ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/build
 .PHONY : IexMath/fast
 
 IexMathFloatExc.o: IexMathFloatExc.cpp.o
@@ -199,7 +199,7 @@ IexMathFloatExc.o: IexMathFloatExc.cpp.o
 
 # target to build an object file
 IexMathFloatExc.cpp.o:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/build.make ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/IexMathFloatExc.cpp.o
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/build.make ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/IexMathFloatExc.cpp.o
 .PHONY : IexMathFloatExc.cpp.o
 
 IexMathFloatExc.i: IexMathFloatExc.cpp.i
@@ -208,7 +208,7 @@ IexMathFloatExc.i: IexMathFloatExc.cpp.i
 
 # target to preprocess a source file
 IexMathFloatExc.cpp.i:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/build.make ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/IexMathFloatExc.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/build.make ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/IexMathFloatExc.cpp.i
 .PHONY : IexMathFloatExc.cpp.i
 
 IexMathFloatExc.s: IexMathFloatExc.cpp.s
@@ -217,7 +217,7 @@ IexMathFloatExc.s: IexMathFloatExc.cpp.s
 
 # target to generate assembly for a file
 IexMathFloatExc.cpp.s:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/build.make ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/IexMathFloatExc.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/build.make ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/IexMathFloatExc.cpp.s
 .PHONY : IexMathFloatExc.cpp.s
 
 IexMathFpu.o: IexMathFpu.cpp.o
@@ -226,7 +226,7 @@ IexMathFpu.o: IexMathFpu.cpp.o
 
 # target to build an object file
 IexMathFpu.cpp.o:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/build.make ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/IexMathFpu.cpp.o
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/build.make ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/IexMathFpu.cpp.o
 .PHONY : IexMathFpu.cpp.o
 
 IexMathFpu.i: IexMathFpu.cpp.i
@@ -235,7 +235,7 @@ IexMathFpu.i: IexMathFpu.cpp.i
 
 # target to preprocess a source file
 IexMathFpu.cpp.i:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/build.make ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/IexMathFpu.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/build.make ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/IexMathFpu.cpp.i
 .PHONY : IexMathFpu.cpp.i
 
 IexMathFpu.s: IexMathFpu.cpp.s
@@ -244,7 +244,7 @@ IexMathFpu.s: IexMathFpu.cpp.s
 
 # target to generate assembly for a file
 IexMathFpu.cpp.s:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/build.make ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/IexMathFpu.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/build.make ext_build/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/IexMathFpu.cpp.s
 .PHONY : IexMathFpu.cpp.s
 
 # Help Target
@@ -279,6 +279,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

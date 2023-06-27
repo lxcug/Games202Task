@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt
+CMAKE_SOURCE_DIR = /mnt/e/Games202/hw2/prt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl
+CMAKE_BINARY_DIR = /mnt/e/Games202/hw2/prt/cmake-build-release-wsl
 
 # Utility rule file for tbb_def_files.
 
@@ -58,12 +58,12 @@ ext_build/tbb/CMakeFiles/tbb_def_files: ext_build/tbb/tbbmalloc.def
 
 
 ext_build/tbb/tbb.def: ../ext/tbb/src/tbb/lin64-tbb-export.def
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Preprocessing tbb.def"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/tbb && /usr/bin/c++ -xc++ -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/tbb/src/tbb/lin64-tbb-export.def -I /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/tbb/include -o tbb.def
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Preprocessing tbb.def"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/tbb && /usr/bin/c++ -xc++ -E /mnt/e/Games202/hw2/prt/ext/tbb/src/tbb/lin64-tbb-export.def -I /mnt/e/Games202/hw2/prt/ext/tbb/include -o tbb.def
 
 ext_build/tbb/tbbmalloc.def: ../ext/tbb/src/tbbmalloc/lin64-tbbmalloc-export.def
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Preprocessing tbbmalloc.def"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/tbb && /usr/bin/c++ -xc++ -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/tbb/src/tbbmalloc/lin64-tbbmalloc-export.def -I /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/tbb/include -o tbbmalloc.def
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Preprocessing tbbmalloc.def"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/tbb && /usr/bin/c++ -xc++ -E /mnt/e/Games202/hw2/prt/ext/tbb/src/tbbmalloc/lin64-tbbmalloc-export.def -I /mnt/e/Games202/hw2/prt/ext/tbb/include -o tbbmalloc.def
 
 tbb_def_files: ext_build/tbb/CMakeFiles/tbb_def_files
 tbb_def_files: ext_build/tbb/tbb.def
@@ -78,10 +78,10 @@ ext_build/tbb/CMakeFiles/tbb_def_files.dir/build: tbb_def_files
 .PHONY : ext_build/tbb/CMakeFiles/tbb_def_files.dir/build
 
 ext_build/tbb/CMakeFiles/tbb_def_files.dir/clean:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/tbb && $(CMAKE_COMMAND) -P CMakeFiles/tbb_def_files.dir/cmake_clean.cmake
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/tbb && $(CMAKE_COMMAND) -P CMakeFiles/tbb_def_files.dir/cmake_clean.cmake
 .PHONY : ext_build/tbb/CMakeFiles/tbb_def_files.dir/clean
 
 ext_build/tbb/CMakeFiles/tbb_def_files.dir/depend:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/tbb /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/tbb /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/tbb/CMakeFiles/tbb_def_files.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/e/Games202/hw2/prt /mnt/e/Games202/hw2/prt/ext/tbb /mnt/e/Games202/hw2/prt/cmake-build-release-wsl /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/tbb /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/tbb/CMakeFiles/tbb_def_files.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ext_build/tbb/CMakeFiles/tbb_def_files.dir/depend
 

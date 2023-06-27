@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++14 -fvisibility=hidden -Wno-deprecated-declarations -Wno-mi
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/openexr/IlmBase/IlmThread -I/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/openexr/IlmBase/IlmThread -I/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/openexr/IlmBase/Iex -I/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/openexr/IlmBase/IexMath -I/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/openexr/IlmBase/Imath -I/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/openexr/IlmBase/Half -I/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/openexr/IlmBase/config 
+CXX_INCLUDES = -I/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/openexr/IlmBase/IlmThread -I/mnt/e/Games202/hw2/prt/ext/openexr/IlmBase/IlmThread -I/mnt/e/Games202/hw2/prt/ext/openexr/IlmBase/Iex -I/mnt/e/Games202/hw2/prt/ext/openexr/IlmBase/IexMath -I/mnt/e/Games202/hw2/prt/ext/openexr/IlmBase/Imath -I/mnt/e/Games202/hw2/prt/ext/openexr/IlmBase/Half -I/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/openexr/IlmBase/config 
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/openexr/IlmBase/Half/eLut.cpp" "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/openexr/IlmBase/Half/CMakeFiles/eLut.dir/eLut.cpp.o"
+  "/mnt/e/Games202/hw2/prt/ext/openexr/IlmBase/Half/eLut.cpp" "/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/openexr/IlmBase/Half/CMakeFiles/eLut.dir/eLut.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

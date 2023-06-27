@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt
+CMAKE_SOURCE_DIR = /mnt/e/Games202/hw2/prt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl
+CMAKE_BINARY_DIR = /mnt/e/Games202/hw2/prt/cmake-build-release-wsl
 
 # Include any dependencies generated for this target.
 include ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/depend.make
@@ -62,22 +62,22 @@ glfw_OBJECTS =
 
 # External object files for target glfw
 glfw_EXTERNAL_OBJECTS = \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/input.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/window.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_init.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_monitor.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_window.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/xkb_unicode.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_time.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_thread.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/glx_context.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/egl_context.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/osmesa_context.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/linux_joystick.c.o"
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/input.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/window.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_init.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_monitor.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_window.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/xkb_unicode.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_time.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_thread.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/glx_context.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/egl_context.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/osmesa_context.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/linux_joystick.c.o"
 
 ext_build/nanogui/ext/glfw/src/libglfw3.a: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o
 ext_build/nanogui/ext/glfw/src/libglfw3.a: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o
@@ -97,9 +97,9 @@ ext_build/nanogui/ext/glfw/src/libglfw3.a: ext_build/nanogui/ext/glfw/src/CMakeF
 ext_build/nanogui/ext/glfw/src/libglfw3.a: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/linux_joystick.c.o
 ext_build/nanogui/ext/glfw/src/libglfw3.a: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/build.make
 ext_build/nanogui/ext/glfw/src/libglfw3.a: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking C static library libglfw3.a"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean_target.cmake
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glfw.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking C static library libglfw3.a"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean_target.cmake
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glfw.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/build: ext_build/nanogui/ext/glfw/src/libglfw3.a
@@ -107,10 +107,10 @@ ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/build: ext_build/nanogui/ext/
 .PHONY : ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/build
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/clean:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean.cmake
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean.cmake
 .PHONY : ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/clean
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/depend:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/e/Games202/hw2/prt /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src /mnt/e/Games202/hw2/prt/cmake-build-release-wsl /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/depend
 

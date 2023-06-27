@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/src/common.cpp" "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles/warptest.dir/src/common.cpp.o"
-  "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/src/microfacet.cpp" "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles/warptest.dir/src/microfacet.cpp.o"
-  "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/src/object.cpp" "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles/warptest.dir/src/object.cpp.o"
-  "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/src/proplist.cpp" "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles/warptest.dir/src/proplist.cpp.o"
-  "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/src/warp.cpp" "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles/warptest.dir/src/warp.cpp.o"
-  "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/src/warptest.cpp" "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles/warptest.dir/src/warptest.cpp.o"
+  "/mnt/e/Games202/hw2/prt/src/common.cpp" "/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles/warptest.dir/src/common.cpp.o"
+  "/mnt/e/Games202/hw2/prt/src/microfacet.cpp" "/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles/warptest.dir/src/microfacet.cpp.o"
+  "/mnt/e/Games202/hw2/prt/src/object.cpp" "/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles/warptest.dir/src/object.cpp.o"
+  "/mnt/e/Games202/hw2/prt/src/proplist.cpp" "/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles/warptest.dir/src/proplist.cpp.o"
+  "/mnt/e/Games202/hw2/prt/src/warp.cpp" "/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles/warptest.dir/src/warp.cpp.o"
+  "/mnt/e/Games202/hw2/prt/src/warptest.cpp" "/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles/warptest.dir/src/warptest.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -44,8 +44,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/tbb/CMakeFiles/tbb_static.dir/DependInfo.cmake"
-  "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/CMakeFiles/nanogui.dir/DependInfo.cmake"
+  "/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/tbb/CMakeFiles/tbb_static.dir/DependInfo.cmake"
+  "/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/CMakeFiles/nanogui.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

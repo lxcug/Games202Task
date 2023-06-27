@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt
+CMAKE_SOURCE_DIR = /mnt/e/Games202/hw2/prt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl
+CMAKE_BINARY_DIR = /mnt/e/Games202/hw2/prt/cmake-build-release-wsl
 
 # Include any dependencies generated for this target.
 include ext_build/nanogui/CMakeFiles/nanogui.dir/depend.make
@@ -69,453 +69,453 @@ ext_build/nanogui/nanogui_resources.cpp: ../ext/nanogui/resources/Roboto-Bold.tt
 ext_build/nanogui/nanogui_resources.cpp: ../ext/nanogui/resources/Roboto-Regular.ttf
 ext_build/nanogui/nanogui_resources.cpp: ../ext/nanogui/resources/imageview_fragment.gl
 ext_build/nanogui/nanogui_resources.cpp: ../ext/nanogui/resources/imageview_vertex.gl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running bin2c"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/cmake -DOUTPUT_C=nanogui_resources.cpp -DOUTPUT_H=nanogui_resources.h -DINPUT_FILES=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/resources/FontAwesome-Solid.ttf,/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/resources/Inconsolata-Regular.ttf,/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/resources/Roboto-Bold.ttf,/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/resources/Roboto-Regular.ttf,/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/resources/imageview_fragment.gl,/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/resources/imageview_vertex.gl -P /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/resources/bin2c.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running bin2c"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/cmake -DOUTPUT_C=nanogui_resources.cpp -DOUTPUT_H=nanogui_resources.h -DINPUT_FILES=/mnt/e/Games202/hw2/prt/ext/nanogui/resources/FontAwesome-Solid.ttf,/mnt/e/Games202/hw2/prt/ext/nanogui/resources/Inconsolata-Regular.ttf,/mnt/e/Games202/hw2/prt/ext/nanogui/resources/Roboto-Bold.ttf,/mnt/e/Games202/hw2/prt/ext/nanogui/resources/Roboto-Regular.ttf,/mnt/e/Games202/hw2/prt/ext/nanogui/resources/imageview_fragment.gl,/mnt/e/Games202/hw2/prt/ext/nanogui/resources/imageview_vertex.gl -P /mnt/e/Games202/hw2/prt/ext/nanogui/resources/bin2c.cmake
 
 ext_build/nanogui/nanogui_resources.h: ext_build/nanogui/nanogui_resources.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate ext_build/nanogui/nanogui_resources.h
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o: ../ext/nanogui/ext/nanovg/src/nanovg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object ext_build/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-unused-result -o CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o   -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/nanovg/src/nanovg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object ext_build/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-unused-result -o CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o   -c /mnt/e/Games202/hw2/prt/ext/nanogui/ext/nanovg/src/nanovg.c
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-unused-result -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/nanovg/src/nanovg.c > CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-unused-result -E /mnt/e/Games202/hw2/prt/ext/nanogui/ext/nanovg/src/nanovg.c > CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-unused-result -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/nanovg/src/nanovg.c -o CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-unused-result -S /mnt/e/Games202/hw2/prt/ext/nanogui/ext/nanovg/src/nanovg.c -o CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/texture_gl.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/texture_gl.cpp.o: ../ext/nanogui/src/texture_gl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/texture_gl.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/texture_gl.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/texture_gl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/texture_gl.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/texture_gl.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/texture_gl.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/texture_gl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/texture_gl.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/texture_gl.cpp > CMakeFiles/nanogui.dir/src/texture_gl.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/texture_gl.cpp > CMakeFiles/nanogui.dir/src/texture_gl.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/texture_gl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/texture_gl.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/texture_gl.cpp -o CMakeFiles/nanogui.dir/src/texture_gl.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/texture_gl.cpp -o CMakeFiles/nanogui.dir/src/texture_gl.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/shader_gl.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/shader_gl.cpp.o: ../ext/nanogui/src/shader_gl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/shader_gl.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/shader_gl.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/shader_gl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/shader_gl.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/shader_gl.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/shader_gl.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/shader_gl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/shader_gl.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/shader_gl.cpp > CMakeFiles/nanogui.dir/src/shader_gl.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/shader_gl.cpp > CMakeFiles/nanogui.dir/src/shader_gl.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/shader_gl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/shader_gl.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/shader_gl.cpp -o CMakeFiles/nanogui.dir/src/shader_gl.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/shader_gl.cpp -o CMakeFiles/nanogui.dir/src/shader_gl.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.o: ../ext/nanogui/src/renderpass_gl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/renderpass_gl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/renderpass_gl.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/renderpass_gl.cpp > CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/renderpass_gl.cpp > CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/renderpass_gl.cpp -o CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/renderpass_gl.cpp -o CMakeFiles/nanogui.dir/src/renderpass_gl.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/opengl.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/opengl.cpp.o: ../ext/nanogui/src/opengl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/opengl.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/opengl.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/opengl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/opengl.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/opengl.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/opengl.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/opengl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/opengl.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/opengl.cpp > CMakeFiles/nanogui.dir/src/opengl.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/opengl.cpp > CMakeFiles/nanogui.dir/src/opengl.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/opengl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/opengl.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/opengl.cpp -o CMakeFiles/nanogui.dir/src/opengl.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/opengl.cpp -o CMakeFiles/nanogui.dir/src/opengl.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.o: ext_build/nanogui/nanogui_resources.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/nanogui_resources.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/nanogui_resources.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/nanogui_resources.cpp.o -c /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/nanogui_resources.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/nanogui_resources.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/nanogui_resources.cpp > CMakeFiles/nanogui.dir/nanogui_resources.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/nanogui_resources.cpp > CMakeFiles/nanogui.dir/nanogui_resources.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/nanogui_resources.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/nanogui_resources.cpp -o CMakeFiles/nanogui.dir/nanogui_resources.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/nanogui_resources.cpp -o CMakeFiles/nanogui.dir/nanogui_resources.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/common.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/common.cpp.o: ../ext/nanogui/src/common.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/common.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/common.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/common.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/common.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/common.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/common.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/common.cpp > CMakeFiles/nanogui.dir/src/common.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/common.cpp > CMakeFiles/nanogui.dir/src/common.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/common.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/common.cpp -o CMakeFiles/nanogui.dir/src/common.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/common.cpp -o CMakeFiles/nanogui.dir/src/common.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/widget.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/widget.cpp.o: ../ext/nanogui/src/widget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/widget.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/widget.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/widget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/widget.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/widget.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/widget.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/widget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/widget.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/widget.cpp > CMakeFiles/nanogui.dir/src/widget.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/widget.cpp > CMakeFiles/nanogui.dir/src/widget.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/widget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/widget.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/widget.cpp -o CMakeFiles/nanogui.dir/src/widget.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/widget.cpp -o CMakeFiles/nanogui.dir/src/widget.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.o: ../ext/nanogui/src/theme.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/theme.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/theme.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/theme.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/theme.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/theme.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/theme.cpp > CMakeFiles/nanogui.dir/src/theme.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/theme.cpp > CMakeFiles/nanogui.dir/src/theme.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/theme.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/theme.cpp -o CMakeFiles/nanogui.dir/src/theme.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/theme.cpp -o CMakeFiles/nanogui.dir/src/theme.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.o: ../ext/nanogui/src/layout.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/layout.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/layout.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/layout.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/layout.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/layout.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/layout.cpp > CMakeFiles/nanogui.dir/src/layout.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/layout.cpp > CMakeFiles/nanogui.dir/src/layout.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/layout.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/layout.cpp -o CMakeFiles/nanogui.dir/src/layout.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/layout.cpp -o CMakeFiles/nanogui.dir/src/layout.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/screen.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/screen.cpp.o: ../ext/nanogui/src/screen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/screen.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/screen.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/screen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/screen.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/screen.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/screen.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/screen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/screen.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/screen.cpp > CMakeFiles/nanogui.dir/src/screen.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/screen.cpp > CMakeFiles/nanogui.dir/src/screen.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/screen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/screen.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/screen.cpp -o CMakeFiles/nanogui.dir/src/screen.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/screen.cpp -o CMakeFiles/nanogui.dir/src/screen.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/label.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/label.cpp.o: ../ext/nanogui/src/label.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/label.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/label.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/label.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/label.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/label.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/label.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/label.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/label.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/label.cpp > CMakeFiles/nanogui.dir/src/label.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/label.cpp > CMakeFiles/nanogui.dir/src/label.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/label.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/label.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/label.cpp -o CMakeFiles/nanogui.dir/src/label.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/label.cpp -o CMakeFiles/nanogui.dir/src/label.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/window.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/window.cpp.o: ../ext/nanogui/src/window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/window.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/window.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/window.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/window.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/window.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/window.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/window.cpp > CMakeFiles/nanogui.dir/src/window.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/window.cpp > CMakeFiles/nanogui.dir/src/window.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/window.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/window.cpp -o CMakeFiles/nanogui.dir/src/window.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/window.cpp -o CMakeFiles/nanogui.dir/src/window.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/popup.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/popup.cpp.o: ../ext/nanogui/src/popup.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/popup.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/popup.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/popup.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/popup.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/popup.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/popup.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/popup.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/popup.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/popup.cpp > CMakeFiles/nanogui.dir/src/popup.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/popup.cpp > CMakeFiles/nanogui.dir/src/popup.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/popup.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/popup.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/popup.cpp -o CMakeFiles/nanogui.dir/src/popup.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/popup.cpp -o CMakeFiles/nanogui.dir/src/popup.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/checkbox.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/checkbox.cpp.o: ../ext/nanogui/src/checkbox.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/checkbox.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/checkbox.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/checkbox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/checkbox.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/checkbox.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/checkbox.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/checkbox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/checkbox.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/checkbox.cpp > CMakeFiles/nanogui.dir/src/checkbox.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/checkbox.cpp > CMakeFiles/nanogui.dir/src/checkbox.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/checkbox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/checkbox.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/checkbox.cpp -o CMakeFiles/nanogui.dir/src/checkbox.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/checkbox.cpp -o CMakeFiles/nanogui.dir/src/checkbox.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/button.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/button.cpp.o: ../ext/nanogui/src/button.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/button.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/button.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/button.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/button.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/button.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/button.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/button.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/button.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/button.cpp > CMakeFiles/nanogui.dir/src/button.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/button.cpp > CMakeFiles/nanogui.dir/src/button.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/button.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/button.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/button.cpp -o CMakeFiles/nanogui.dir/src/button.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/button.cpp -o CMakeFiles/nanogui.dir/src/button.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/popupbutton.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/popupbutton.cpp.o: ../ext/nanogui/src/popupbutton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/popupbutton.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/popupbutton.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/popupbutton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/popupbutton.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/popupbutton.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/popupbutton.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/popupbutton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/popupbutton.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/popupbutton.cpp > CMakeFiles/nanogui.dir/src/popupbutton.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/popupbutton.cpp > CMakeFiles/nanogui.dir/src/popupbutton.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/popupbutton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/popupbutton.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/popupbutton.cpp -o CMakeFiles/nanogui.dir/src/popupbutton.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/popupbutton.cpp -o CMakeFiles/nanogui.dir/src/popupbutton.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/combobox.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/combobox.cpp.o: ../ext/nanogui/src/combobox.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/combobox.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/combobox.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/combobox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/combobox.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/combobox.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/combobox.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/combobox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/combobox.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/combobox.cpp > CMakeFiles/nanogui.dir/src/combobox.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/combobox.cpp > CMakeFiles/nanogui.dir/src/combobox.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/combobox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/combobox.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/combobox.cpp -o CMakeFiles/nanogui.dir/src/combobox.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/combobox.cpp -o CMakeFiles/nanogui.dir/src/combobox.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/progressbar.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/progressbar.cpp.o: ../ext/nanogui/src/progressbar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/progressbar.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/progressbar.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/progressbar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/progressbar.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/progressbar.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/progressbar.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/progressbar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/progressbar.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/progressbar.cpp > CMakeFiles/nanogui.dir/src/progressbar.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/progressbar.cpp > CMakeFiles/nanogui.dir/src/progressbar.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/progressbar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/progressbar.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/progressbar.cpp -o CMakeFiles/nanogui.dir/src/progressbar.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/progressbar.cpp -o CMakeFiles/nanogui.dir/src/progressbar.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/slider.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/slider.cpp.o: ../ext/nanogui/src/slider.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/slider.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/slider.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/slider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/slider.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/slider.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/slider.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/slider.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/slider.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/slider.cpp > CMakeFiles/nanogui.dir/src/slider.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/slider.cpp > CMakeFiles/nanogui.dir/src/slider.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/slider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/slider.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/slider.cpp -o CMakeFiles/nanogui.dir/src/slider.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/slider.cpp -o CMakeFiles/nanogui.dir/src/slider.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/messagedialog.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/messagedialog.cpp.o: ../ext/nanogui/src/messagedialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/messagedialog.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/messagedialog.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/messagedialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/messagedialog.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/messagedialog.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/messagedialog.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/messagedialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/messagedialog.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/messagedialog.cpp > CMakeFiles/nanogui.dir/src/messagedialog.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/messagedialog.cpp > CMakeFiles/nanogui.dir/src/messagedialog.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/messagedialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/messagedialog.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/messagedialog.cpp -o CMakeFiles/nanogui.dir/src/messagedialog.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/messagedialog.cpp -o CMakeFiles/nanogui.dir/src/messagedialog.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/textbox.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/textbox.cpp.o: ../ext/nanogui/src/textbox.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/textbox.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/textbox.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/textbox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/textbox.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/textbox.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/textbox.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/textbox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/textbox.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/textbox.cpp > CMakeFiles/nanogui.dir/src/textbox.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/textbox.cpp > CMakeFiles/nanogui.dir/src/textbox.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/textbox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/textbox.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/textbox.cpp -o CMakeFiles/nanogui.dir/src/textbox.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/textbox.cpp -o CMakeFiles/nanogui.dir/src/textbox.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/textarea.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/textarea.cpp.o: ../ext/nanogui/src/textarea.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/textarea.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/textarea.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/textarea.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/textarea.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/textarea.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/textarea.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/textarea.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/textarea.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/textarea.cpp > CMakeFiles/nanogui.dir/src/textarea.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/textarea.cpp > CMakeFiles/nanogui.dir/src/textarea.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/textarea.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/textarea.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/textarea.cpp -o CMakeFiles/nanogui.dir/src/textarea.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/textarea.cpp -o CMakeFiles/nanogui.dir/src/textarea.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/imagepanel.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/imagepanel.cpp.o: ../ext/nanogui/src/imagepanel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/imagepanel.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/imagepanel.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/imagepanel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/imagepanel.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/imagepanel.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/imagepanel.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/imagepanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/imagepanel.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/imagepanel.cpp > CMakeFiles/nanogui.dir/src/imagepanel.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/imagepanel.cpp > CMakeFiles/nanogui.dir/src/imagepanel.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/imagepanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/imagepanel.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/imagepanel.cpp -o CMakeFiles/nanogui.dir/src/imagepanel.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/imagepanel.cpp -o CMakeFiles/nanogui.dir/src/imagepanel.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o: ../ext/nanogui/src/vscrollpanel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/vscrollpanel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/vscrollpanel.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/vscrollpanel.cpp > CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/vscrollpanel.cpp > CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/vscrollpanel.cpp -o CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/vscrollpanel.cpp -o CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/colorwheel.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/colorwheel.cpp.o: ../ext/nanogui/src/colorwheel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/colorwheel.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/colorwheel.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/colorwheel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/colorwheel.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/colorwheel.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/colorwheel.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/colorwheel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/colorwheel.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/colorwheel.cpp > CMakeFiles/nanogui.dir/src/colorwheel.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/colorwheel.cpp > CMakeFiles/nanogui.dir/src/colorwheel.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/colorwheel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/colorwheel.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/colorwheel.cpp -o CMakeFiles/nanogui.dir/src/colorwheel.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/colorwheel.cpp -o CMakeFiles/nanogui.dir/src/colorwheel.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/colorpicker.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/colorpicker.cpp.o: ../ext/nanogui/src/colorpicker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/colorpicker.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/colorpicker.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/colorpicker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/colorpicker.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/colorpicker.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/colorpicker.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/colorpicker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/colorpicker.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/colorpicker.cpp > CMakeFiles/nanogui.dir/src/colorpicker.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/colorpicker.cpp > CMakeFiles/nanogui.dir/src/colorpicker.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/colorpicker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/colorpicker.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/colorpicker.cpp -o CMakeFiles/nanogui.dir/src/colorpicker.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/colorpicker.cpp -o CMakeFiles/nanogui.dir/src/colorpicker.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/graph.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/graph.cpp.o: ../ext/nanogui/src/graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/graph.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/graph.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/graph.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/graph.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/graph.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/graph.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/graph.cpp > CMakeFiles/nanogui.dir/src/graph.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/graph.cpp > CMakeFiles/nanogui.dir/src/graph.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/graph.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/graph.cpp -o CMakeFiles/nanogui.dir/src/graph.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/graph.cpp -o CMakeFiles/nanogui.dir/src/graph.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/tabwidget.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/tabwidget.cpp.o: ../ext/nanogui/src/tabwidget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/tabwidget.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/tabwidget.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/tabwidget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/tabwidget.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/tabwidget.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/tabwidget.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/tabwidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/tabwidget.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/tabwidget.cpp > CMakeFiles/nanogui.dir/src/tabwidget.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/tabwidget.cpp > CMakeFiles/nanogui.dir/src/tabwidget.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/tabwidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/tabwidget.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/tabwidget.cpp -o CMakeFiles/nanogui.dir/src/tabwidget.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/tabwidget.cpp -o CMakeFiles/nanogui.dir/src/tabwidget.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/canvas.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/canvas.cpp.o: ../ext/nanogui/src/canvas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/canvas.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/canvas.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/canvas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/canvas.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/canvas.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/canvas.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/canvas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/canvas.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/canvas.cpp > CMakeFiles/nanogui.dir/src/canvas.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/canvas.cpp > CMakeFiles/nanogui.dir/src/canvas.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/canvas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/canvas.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/canvas.cpp -o CMakeFiles/nanogui.dir/src/canvas.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/canvas.cpp -o CMakeFiles/nanogui.dir/src/canvas.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/texture.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/texture.cpp.o: ../ext/nanogui/src/texture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/texture.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/texture.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/texture.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/texture.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/texture.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/texture.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/texture.cpp > CMakeFiles/nanogui.dir/src/texture.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/texture.cpp > CMakeFiles/nanogui.dir/src/texture.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/texture.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/texture.cpp -o CMakeFiles/nanogui.dir/src/texture.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/texture.cpp -o CMakeFiles/nanogui.dir/src/texture.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/shader.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/shader.cpp.o: ../ext/nanogui/src/shader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/shader.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/shader.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/shader.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/shader.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/shader.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/shader.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/shader.cpp > CMakeFiles/nanogui.dir/src/shader.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/shader.cpp > CMakeFiles/nanogui.dir/src/shader.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/shader.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/shader.cpp -o CMakeFiles/nanogui.dir/src/shader.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/shader.cpp -o CMakeFiles/nanogui.dir/src/shader.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/imageview.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/imageview.cpp.o: ../ext/nanogui/src/imageview.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/imageview.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/imageview.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/imageview.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/imageview.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/imageview.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/imageview.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/imageview.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/imageview.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/imageview.cpp > CMakeFiles/nanogui.dir/src/imageview.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/imageview.cpp > CMakeFiles/nanogui.dir/src/imageview.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/imageview.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/imageview.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/imageview.cpp -o CMakeFiles/nanogui.dir/src/imageview.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/imageview.cpp -o CMakeFiles/nanogui.dir/src/imageview.cpp.s
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/traits.cpp.o: ext_build/nanogui/CMakeFiles/nanogui.dir/flags.make
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/traits.cpp.o: ../ext/nanogui/src/traits.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/traits.cpp.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/traits.cpp.o -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/traits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object ext_build/nanogui/CMakeFiles/nanogui.dir/src/traits.cpp.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/traits.cpp.o -c /mnt/e/Games202/hw2/prt/ext/nanogui/src/traits.cpp
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/traits.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/traits.cpp.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/traits.cpp > CMakeFiles/nanogui.dir/src/traits.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/src/traits.cpp > CMakeFiles/nanogui.dir/src/traits.cpp.i
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/traits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/traits.cpp.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/src/traits.cpp -o CMakeFiles/nanogui.dir/src/traits.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/src/traits.cpp -o CMakeFiles/nanogui.dir/src/traits.cpp.s
 
 # Object files for target nanogui
 nanogui_OBJECTS = \
@@ -556,22 +556,22 @@ nanogui_OBJECTS = \
 
 # External object files for target nanogui
 nanogui_EXTERNAL_OBJECTS = \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/input.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/window.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_init.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_monitor.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_window.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/xkb_unicode.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_time.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_thread.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/glx_context.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/egl_context.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/osmesa_context.c.o" \
-"/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/linux_joystick.c.o"
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/input.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/window.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_init.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_monitor.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_window.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/xkb_unicode.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_time.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_thread.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/glx_context.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/egl_context.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/osmesa_context.c.o" \
+"/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/linux_joystick.c.o"
 
 ext_build/nanogui/libnanogui.a: ext_build/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o
 ext_build/nanogui/libnanogui.a: ext_build/nanogui/CMakeFiles/nanogui.dir/src/texture_gl.cpp.o
@@ -625,9 +625,9 @@ ext_build/nanogui/libnanogui.a: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_o
 ext_build/nanogui/libnanogui.a: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/linux_joystick.c.o
 ext_build/nanogui/libnanogui.a: ext_build/nanogui/CMakeFiles/nanogui.dir/build.make
 ext_build/nanogui/libnanogui.a: ext_build/nanogui/CMakeFiles/nanogui.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX static library libnanogui.a"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && $(CMAKE_COMMAND) -P CMakeFiles/nanogui.dir/cmake_clean_target.cmake
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nanogui.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX static library libnanogui.a"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && $(CMAKE_COMMAND) -P CMakeFiles/nanogui.dir/cmake_clean_target.cmake
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nanogui.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ext_build/nanogui/CMakeFiles/nanogui.dir/build: ext_build/nanogui/libnanogui.a
@@ -635,11 +635,11 @@ ext_build/nanogui/CMakeFiles/nanogui.dir/build: ext_build/nanogui/libnanogui.a
 .PHONY : ext_build/nanogui/CMakeFiles/nanogui.dir/build
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/clean:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui && $(CMAKE_COMMAND) -P CMakeFiles/nanogui.dir/cmake_clean.cmake
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui && $(CMAKE_COMMAND) -P CMakeFiles/nanogui.dir/cmake_clean.cmake
 .PHONY : ext_build/nanogui/CMakeFiles/nanogui.dir/clean
 
 ext_build/nanogui/CMakeFiles/nanogui.dir/depend: ext_build/nanogui/nanogui_resources.cpp
 ext_build/nanogui/CMakeFiles/nanogui.dir/depend: ext_build/nanogui/nanogui_resources.h
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/CMakeFiles/nanogui.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/e/Games202/hw2/prt /mnt/e/Games202/hw2/prt/ext/nanogui /mnt/e/Games202/hw2/prt/cmake-build-release-wsl /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/CMakeFiles/nanogui.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ext_build/nanogui/CMakeFiles/nanogui.dir/depend
 

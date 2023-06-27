@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/openexr/IlmBase/IlmThread
+# Install script for directory: /mnt/e/Games202/hw2/prt/ext/openexr/IlmBase/IlmThread
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,18 +38,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/openexr/IlmBase/IlmThread/libIlmThread.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/openexr/IlmBase/IlmThread/libIlmThread.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OpenEXR" TYPE FILE FILES
-    "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/openexr/IlmBase/IlmThread/IlmThreadPool.h"
-    "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/openexr/IlmBase/IlmThread/IlmThread.h"
-    "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphore.h"
-    "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/openexr/IlmBase/IlmThread/IlmThreadMutex.h"
-    "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/openexr/IlmBase/IlmThread/IlmThreadNamespace.h"
-    "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/openexr/IlmBase/IlmThread/IlmThreadExport.h"
-    "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/openexr/IlmBase/IlmThread/IlmThreadForward.h"
+    "/mnt/e/Games202/hw2/prt/ext/openexr/IlmBase/IlmThread/IlmThreadPool.h"
+    "/mnt/e/Games202/hw2/prt/ext/openexr/IlmBase/IlmThread/IlmThread.h"
+    "/mnt/e/Games202/hw2/prt/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphore.h"
+    "/mnt/e/Games202/hw2/prt/ext/openexr/IlmBase/IlmThread/IlmThreadMutex.h"
+    "/mnt/e/Games202/hw2/prt/ext/openexr/IlmBase/IlmThread/IlmThreadNamespace.h"
+    "/mnt/e/Games202/hw2/prt/ext/openexr/IlmBase/IlmThread/IlmThreadExport.h"
+    "/mnt/e/Games202/hw2/prt/ext/openexr/IlmBase/IlmThread/IlmThreadForward.h"
     )
 endif()
 

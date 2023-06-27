@@ -6,7 +6,7 @@ CXX_FLAGS = -mrtm -std=c++11  -std=c++14 -fvisibility=hidden -Wno-deprecated-dec
 
 CXX_DEFINES = -DDO_ITT_NOTIFY -DUSE_PTHREAD -D__TBB_BUILD=1 -D__TBB_DYNAMIC_LOAD_ENABLED=0 -D__TBB_SOURCE_DIRECTLY_INCLUDED=1
 
-CXX_INCLUDES = -I/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/tbb/include -I/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/tbb/src -I/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/tbb/src/rml/include -I/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/tbb -I/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl 
+CXX_INCLUDES = -I/mnt/e/Games202/hw2/prt/ext/tbb/include -I/mnt/e/Games202/hw2/prt/ext/tbb/src -I/mnt/e/Games202/hw2/prt/ext/tbb/src/rml/include -I/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/tbb -I/mnt/e/Games202/hw2/prt/cmake-build-release-wsl 
 
 # Custom flags: ext_build/tbb/CMakeFiles/tbb_static.dir/src/tbb/governor.cpp.o_FLAGS = -Wno-missing-field-initializers 
 

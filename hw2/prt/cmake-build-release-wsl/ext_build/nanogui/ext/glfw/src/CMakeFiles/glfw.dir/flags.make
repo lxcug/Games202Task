@@ -6,5 +6,5 @@ C_FLAGS = -O3 -DNDEBUG
 
 C_DEFINES = 
 
-C_INCLUDES = -I/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/include 
+C_INCLUDES = -I/mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/include 
 

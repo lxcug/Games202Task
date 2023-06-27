@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt
+CMAKE_SOURCE_DIR = /mnt/e/Games202/hw2/prt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl
+CMAKE_BINARY_DIR = /mnt/e/Games202/hw2/prt/cmake-build-release-wsl
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -94,7 +94,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && /usr/bin/cpack --config ./CPackSourceConfig.cmake /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CPackSourceConfig.cmake
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && /usr/bin/cpack --config ./CPackSourceConfig.cmake /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -138,7 +138,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -148,14 +148,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/openexr/IlmBase/Iex/CMakeFiles/progress.marks
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/Iex/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles 0
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/openexr/IlmBase/Iex/CMakeFiles/progress.marks
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/Iex/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/Iex/clean
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/Iex/clean
 .PHONY : clean
 
 # The main clean target
@@ -165,22 +165,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/Iex/preinstall
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/Iex/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/Iex/preinstall
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/Iex/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/rule:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/rule
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f CMakeFiles/Makefile2 ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/rule
 .PHONY : ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/rule
 
 # Convenience name for target.
@@ -190,7 +190,7 @@ Iex: ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/rule
 
 # fast build rule for target.
 Iex/fast:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/build.make ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/build
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/build.make ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/build
 .PHONY : Iex/fast
 
 IexBaseExc.o: IexBaseExc.cpp.o
@@ -199,7 +199,7 @@ IexBaseExc.o: IexBaseExc.cpp.o
 
 # target to build an object file
 IexBaseExc.cpp.o:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/build.make ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/IexBaseExc.cpp.o
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/build.make ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/IexBaseExc.cpp.o
 .PHONY : IexBaseExc.cpp.o
 
 IexBaseExc.i: IexBaseExc.cpp.i
@@ -208,7 +208,7 @@ IexBaseExc.i: IexBaseExc.cpp.i
 
 # target to preprocess a source file
 IexBaseExc.cpp.i:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/build.make ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/IexBaseExc.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/build.make ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/IexBaseExc.cpp.i
 .PHONY : IexBaseExc.cpp.i
 
 IexBaseExc.s: IexBaseExc.cpp.s
@@ -217,7 +217,7 @@ IexBaseExc.s: IexBaseExc.cpp.s
 
 # target to generate assembly for a file
 IexBaseExc.cpp.s:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/build.make ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/IexBaseExc.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/build.make ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/IexBaseExc.cpp.s
 .PHONY : IexBaseExc.cpp.s
 
 IexThrowErrnoExc.o: IexThrowErrnoExc.cpp.o
@@ -226,7 +226,7 @@ IexThrowErrnoExc.o: IexThrowErrnoExc.cpp.o
 
 # target to build an object file
 IexThrowErrnoExc.cpp.o:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/build.make ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/IexThrowErrnoExc.cpp.o
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/build.make ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/IexThrowErrnoExc.cpp.o
 .PHONY : IexThrowErrnoExc.cpp.o
 
 IexThrowErrnoExc.i: IexThrowErrnoExc.cpp.i
@@ -235,7 +235,7 @@ IexThrowErrnoExc.i: IexThrowErrnoExc.cpp.i
 
 # target to preprocess a source file
 IexThrowErrnoExc.cpp.i:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/build.make ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/IexThrowErrnoExc.cpp.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/build.make ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/IexThrowErrnoExc.cpp.i
 .PHONY : IexThrowErrnoExc.cpp.i
 
 IexThrowErrnoExc.s: IexThrowErrnoExc.cpp.s
@@ -244,7 +244,7 @@ IexThrowErrnoExc.s: IexThrowErrnoExc.cpp.s
 
 # target to generate assembly for a file
 IexThrowErrnoExc.cpp.s:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/build.make ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/IexThrowErrnoExc.cpp.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(MAKE) -f ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/build.make ext_build/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/IexThrowErrnoExc.cpp.s
 .PHONY : IexThrowErrnoExc.cpp.s
 
 # Help Target
@@ -279,6 +279,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

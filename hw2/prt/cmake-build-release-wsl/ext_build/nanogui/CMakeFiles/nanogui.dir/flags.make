@@ -7,13 +7,13 @@ C_FLAGS = -O3 -DNDEBUG
 
 C_DEFINES = -DNANOGUI_BUILD -DNANOGUI_USE_OPENGL -DNVG_STB_IMAGE_IMPLEMENTATION
 
-C_INCLUDES = -I/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui -I/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/include -I/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/nanovg/src -I/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/include 
+C_INCLUDES = -I/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui -I/mnt/e/Games202/hw2/prt/ext/nanogui/include -I/mnt/e/Games202/hw2/prt/ext/nanogui/ext/nanovg/src -I/mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/include 
 
 CXX_FLAGS =  -std=c++14 -fvisibility=hidden -Wno-deprecated-declarations -Wno-misleading-indentation -Wformat-truncation=0 -Wno-int-in-bool-context -Wimplicit-fallthrough=0 -Wall -Wextra -O3 -DNDEBUG -fvisibility=hidden   -std=gnu++17
 
 CXX_DEFINES = -DNANOGUI_BUILD -DNANOGUI_USE_OPENGL -DNVG_STB_IMAGE_IMPLEMENTATION
 
-CXX_INCLUDES = -I/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui -I/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/include -I/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/nanovg/src -I/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/include 
+CXX_INCLUDES = -I/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui -I/mnt/e/Games202/hw2/prt/ext/nanogui/include -I/mnt/e/Games202/hw2/prt/ext/nanogui/ext/nanovg/src -I/mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/include 
 
 # Custom flags: ext_build/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o_FLAGS = -Wno-unused-result
 

@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw
+# Install script for directory: /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/cmake_install.cmake")
+  include("/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/cmake_install.cmake")
 
 endif()
 

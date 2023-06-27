@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/openexr/IlmBase/IexMath
+# Install script for directory: /mnt/e/Games202/hw2/prt/ext/openexr/IlmBase/IexMath
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,14 +38,14 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/openexr/IlmBase/IexMath/libIexMath.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/openexr/IlmBase/IexMath/libIexMath.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OpenEXR" TYPE FILE FILES
-    "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/openexr/IlmBase/IexMath/IexMathFloatExc.h"
-    "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/openexr/IlmBase/IexMath/IexMathFpu.h"
-    "/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/openexr/IlmBase/IexMath/IexMathIeeeExc.h"
+    "/mnt/e/Games202/hw2/prt/ext/openexr/IlmBase/IexMath/IexMathFloatExc.h"
+    "/mnt/e/Games202/hw2/prt/ext/openexr/IlmBase/IexMath/IexMathFpu.h"
+    "/mnt/e/Games202/hw2/prt/ext/openexr/IlmBase/IexMath/IexMathIeeeExc.h"
     )
 endif()
 

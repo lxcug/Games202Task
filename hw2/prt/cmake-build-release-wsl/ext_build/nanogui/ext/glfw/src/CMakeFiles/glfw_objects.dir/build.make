@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt
+CMAKE_SOURCE_DIR = /mnt/e/Games202/hw2/prt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl
+CMAKE_BINARY_DIR = /mnt/e/Games202/hw2/prt/cmake-build-release-wsl
 
 # Include any dependencies generated for this target.
 include ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/depend.make
@@ -59,211 +59,211 @@ include ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/flags.make
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/flags.make
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o: ../ext/nanogui/ext/glfw/src/context.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -o CMakeFiles/glfw_objects.dir/context.c.o   -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/context.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -o CMakeFiles/glfw_objects.dir/context.c.o   -c /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/context.c
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw_objects.dir/context.c.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/context.c > CMakeFiles/glfw_objects.dir/context.c.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/context.c > CMakeFiles/glfw_objects.dir/context.c.i
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw_objects.dir/context.c.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/context.c -o CMakeFiles/glfw_objects.dir/context.c.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/context.c -o CMakeFiles/glfw_objects.dir/context.c.s
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/flags.make
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o: ../ext/nanogui/ext/glfw/src/init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -o CMakeFiles/glfw_objects.dir/init.c.o   -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -o CMakeFiles/glfw_objects.dir/init.c.o   -c /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/init.c
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw_objects.dir/init.c.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/init.c > CMakeFiles/glfw_objects.dir/init.c.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/init.c > CMakeFiles/glfw_objects.dir/init.c.i
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw_objects.dir/init.c.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/init.c -o CMakeFiles/glfw_objects.dir/init.c.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/init.c -o CMakeFiles/glfw_objects.dir/init.c.s
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/input.c.o: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/flags.make
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/input.c.o: ../ext/nanogui/ext/glfw/src/input.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/input.c.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -o CMakeFiles/glfw_objects.dir/input.c.o   -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/input.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/input.c.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -o CMakeFiles/glfw_objects.dir/input.c.o   -c /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/input.c
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/input.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw_objects.dir/input.c.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/input.c > CMakeFiles/glfw_objects.dir/input.c.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/input.c > CMakeFiles/glfw_objects.dir/input.c.i
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/input.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw_objects.dir/input.c.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/input.c -o CMakeFiles/glfw_objects.dir/input.c.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/input.c -o CMakeFiles/glfw_objects.dir/input.c.s
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.o: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/flags.make
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.o: ../ext/nanogui/ext/glfw/src/monitor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -o CMakeFiles/glfw_objects.dir/monitor.c.o   -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/monitor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -o CMakeFiles/glfw_objects.dir/monitor.c.o   -c /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/monitor.c
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw_objects.dir/monitor.c.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/monitor.c > CMakeFiles/glfw_objects.dir/monitor.c.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/monitor.c > CMakeFiles/glfw_objects.dir/monitor.c.i
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw_objects.dir/monitor.c.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/monitor.c -o CMakeFiles/glfw_objects.dir/monitor.c.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/monitor.c -o CMakeFiles/glfw_objects.dir/monitor.c.s
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/flags.make
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o: ../ext/nanogui/ext/glfw/src/vulkan.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -o CMakeFiles/glfw_objects.dir/vulkan.c.o   -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/vulkan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -o CMakeFiles/glfw_objects.dir/vulkan.c.o   -c /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/vulkan.c
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw_objects.dir/vulkan.c.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/vulkan.c > CMakeFiles/glfw_objects.dir/vulkan.c.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/vulkan.c > CMakeFiles/glfw_objects.dir/vulkan.c.i
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw_objects.dir/vulkan.c.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/vulkan.c -o CMakeFiles/glfw_objects.dir/vulkan.c.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/vulkan.c -o CMakeFiles/glfw_objects.dir/vulkan.c.s
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/window.c.o: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/flags.make
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/window.c.o: ../ext/nanogui/ext/glfw/src/window.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/window.c.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -o CMakeFiles/glfw_objects.dir/window.c.o   -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/window.c.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -o CMakeFiles/glfw_objects.dir/window.c.o   -c /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/window.c
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw_objects.dir/window.c.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/window.c > CMakeFiles/glfw_objects.dir/window.c.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -E /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/window.c > CMakeFiles/glfw_objects.dir/window.c.i
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw_objects.dir/window.c.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/window.c -o CMakeFiles/glfw_objects.dir/window.c.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wdeclaration-after-statement -S /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/window.c -o CMakeFiles/glfw_objects.dir/window.c.s
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_init.c.o: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/flags.make
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_init.c.o: ../ext/nanogui/ext/glfw/src/x11_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_init.c.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw_objects.dir/x11_init.c.o   -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/x11_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_init.c.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw_objects.dir/x11_init.c.o   -c /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/x11_init.c
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw_objects.dir/x11_init.c.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/x11_init.c > CMakeFiles/glfw_objects.dir/x11_init.c.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/x11_init.c > CMakeFiles/glfw_objects.dir/x11_init.c.i
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw_objects.dir/x11_init.c.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/x11_init.c -o CMakeFiles/glfw_objects.dir/x11_init.c.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/x11_init.c -o CMakeFiles/glfw_objects.dir/x11_init.c.s
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_monitor.c.o: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/flags.make
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_monitor.c.o: ../ext/nanogui/ext/glfw/src/x11_monitor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_monitor.c.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw_objects.dir/x11_monitor.c.o   -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/x11_monitor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_monitor.c.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw_objects.dir/x11_monitor.c.o   -c /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/x11_monitor.c
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw_objects.dir/x11_monitor.c.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/x11_monitor.c > CMakeFiles/glfw_objects.dir/x11_monitor.c.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/x11_monitor.c > CMakeFiles/glfw_objects.dir/x11_monitor.c.i
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw_objects.dir/x11_monitor.c.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/x11_monitor.c -o CMakeFiles/glfw_objects.dir/x11_monitor.c.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/x11_monitor.c -o CMakeFiles/glfw_objects.dir/x11_monitor.c.s
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_window.c.o: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/flags.make
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_window.c.o: ../ext/nanogui/ext/glfw/src/x11_window.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_window.c.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw_objects.dir/x11_window.c.o   -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/x11_window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_window.c.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw_objects.dir/x11_window.c.o   -c /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/x11_window.c
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw_objects.dir/x11_window.c.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/x11_window.c > CMakeFiles/glfw_objects.dir/x11_window.c.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/x11_window.c > CMakeFiles/glfw_objects.dir/x11_window.c.i
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/x11_window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw_objects.dir/x11_window.c.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/x11_window.c -o CMakeFiles/glfw_objects.dir/x11_window.c.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/x11_window.c -o CMakeFiles/glfw_objects.dir/x11_window.c.s
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/xkb_unicode.c.o: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/flags.make
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/xkb_unicode.c.o: ../ext/nanogui/ext/glfw/src/xkb_unicode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/xkb_unicode.c.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw_objects.dir/xkb_unicode.c.o   -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/xkb_unicode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/xkb_unicode.c.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw_objects.dir/xkb_unicode.c.o   -c /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/xkb_unicode.c
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/xkb_unicode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw_objects.dir/xkb_unicode.c.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/xkb_unicode.c > CMakeFiles/glfw_objects.dir/xkb_unicode.c.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/xkb_unicode.c > CMakeFiles/glfw_objects.dir/xkb_unicode.c.i
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/xkb_unicode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw_objects.dir/xkb_unicode.c.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/xkb_unicode.c -o CMakeFiles/glfw_objects.dir/xkb_unicode.c.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/xkb_unicode.c -o CMakeFiles/glfw_objects.dir/xkb_unicode.c.s
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_time.c.o: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/flags.make
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_time.c.o: ../ext/nanogui/ext/glfw/src/posix_time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_time.c.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw_objects.dir/posix_time.c.o   -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/posix_time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_time.c.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw_objects.dir/posix_time.c.o   -c /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/posix_time.c
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw_objects.dir/posix_time.c.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/posix_time.c > CMakeFiles/glfw_objects.dir/posix_time.c.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/posix_time.c > CMakeFiles/glfw_objects.dir/posix_time.c.i
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw_objects.dir/posix_time.c.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/posix_time.c -o CMakeFiles/glfw_objects.dir/posix_time.c.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/posix_time.c -o CMakeFiles/glfw_objects.dir/posix_time.c.s
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_thread.c.o: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/flags.make
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_thread.c.o: ../ext/nanogui/ext/glfw/src/posix_thread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_thread.c.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw_objects.dir/posix_thread.c.o   -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/posix_thread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_thread.c.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw_objects.dir/posix_thread.c.o   -c /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/posix_thread.c
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_thread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw_objects.dir/posix_thread.c.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/posix_thread.c > CMakeFiles/glfw_objects.dir/posix_thread.c.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/posix_thread.c > CMakeFiles/glfw_objects.dir/posix_thread.c.i
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_thread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw_objects.dir/posix_thread.c.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/posix_thread.c -o CMakeFiles/glfw_objects.dir/posix_thread.c.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/posix_thread.c -o CMakeFiles/glfw_objects.dir/posix_thread.c.s
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/glx_context.c.o: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/flags.make
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/glx_context.c.o: ../ext/nanogui/ext/glfw/src/glx_context.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/glx_context.c.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw_objects.dir/glx_context.c.o   -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/glx_context.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/glx_context.c.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw_objects.dir/glx_context.c.o   -c /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/glx_context.c
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/glx_context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw_objects.dir/glx_context.c.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/glx_context.c > CMakeFiles/glfw_objects.dir/glx_context.c.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/glx_context.c > CMakeFiles/glfw_objects.dir/glx_context.c.i
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/glx_context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw_objects.dir/glx_context.c.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/glx_context.c -o CMakeFiles/glfw_objects.dir/glx_context.c.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/glx_context.c -o CMakeFiles/glfw_objects.dir/glx_context.c.s
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/egl_context.c.o: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/flags.make
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/egl_context.c.o: ../ext/nanogui/ext/glfw/src/egl_context.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/egl_context.c.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw_objects.dir/egl_context.c.o   -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/egl_context.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/egl_context.c.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw_objects.dir/egl_context.c.o   -c /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/egl_context.c
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/egl_context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw_objects.dir/egl_context.c.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/egl_context.c > CMakeFiles/glfw_objects.dir/egl_context.c.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/egl_context.c > CMakeFiles/glfw_objects.dir/egl_context.c.i
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/egl_context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw_objects.dir/egl_context.c.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/egl_context.c -o CMakeFiles/glfw_objects.dir/egl_context.c.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/egl_context.c -o CMakeFiles/glfw_objects.dir/egl_context.c.s
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/osmesa_context.c.o: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/flags.make
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/osmesa_context.c.o: ../ext/nanogui/ext/glfw/src/osmesa_context.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/osmesa_context.c.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw_objects.dir/osmesa_context.c.o   -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/osmesa_context.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/osmesa_context.c.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw_objects.dir/osmesa_context.c.o   -c /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/osmesa_context.c
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/osmesa_context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw_objects.dir/osmesa_context.c.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/osmesa_context.c > CMakeFiles/glfw_objects.dir/osmesa_context.c.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/osmesa_context.c > CMakeFiles/glfw_objects.dir/osmesa_context.c.i
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/osmesa_context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw_objects.dir/osmesa_context.c.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/osmesa_context.c -o CMakeFiles/glfw_objects.dir/osmesa_context.c.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/osmesa_context.c -o CMakeFiles/glfw_objects.dir/osmesa_context.c.s
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/linux_joystick.c.o: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/flags.make
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/linux_joystick.c.o: ../ext/nanogui/ext/glfw/src/linux_joystick.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/linux_joystick.c.o"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw_objects.dir/linux_joystick.c.o   -c /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/linux_joystick.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/linux_joystick.c.o"
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw_objects.dir/linux_joystick.c.o   -c /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/linux_joystick.c
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/linux_joystick.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw_objects.dir/linux_joystick.c.i"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/linux_joystick.c > CMakeFiles/glfw_objects.dir/linux_joystick.c.i
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/linux_joystick.c > CMakeFiles/glfw_objects.dir/linux_joystick.c.i
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/linux_joystick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw_objects.dir/linux_joystick.c.s"
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src/linux_joystick.c -o CMakeFiles/glfw_objects.dir/linux_joystick.c.s
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src/linux_joystick.c -o CMakeFiles/glfw_objects.dir/linux_joystick.c.s
 
 glfw_objects: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o
 glfw_objects: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o
@@ -291,10 +291,10 @@ ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/build: glfw_objects
 .PHONY : ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/build
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/clean:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw_objects.dir/cmake_clean.cmake
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw_objects.dir/cmake_clean.cmake
 .PHONY : ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/clean
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/depend:
-	cd /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/e/Games202/hw2/prt/cmake-build-release-wsl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/e/Games202/hw2/prt /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src /mnt/e/Games202/hw2/prt/cmake-build-release-wsl /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src /mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/depend
 

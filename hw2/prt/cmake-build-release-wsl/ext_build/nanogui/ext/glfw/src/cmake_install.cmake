@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src
+# Install script for directory: /mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -6,7 +6,7 @@ C_FLAGS = -O3 -DNDEBUG   -Wall
 
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/include -I/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/ext/nanogui/ext/glfw/src -I/mnt/e/Games202/GAMES202_Assignment2/Assignment2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src 
+C_INCLUDES = -I/mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/include -I/mnt/e/Games202/hw2/prt/ext/nanogui/ext/glfw/src -I/mnt/e/Games202/hw2/prt/cmake-build-release-wsl/ext_build/nanogui/ext/glfw/src 
 
 # Custom flags: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o_FLAGS = -Wdeclaration-after-statement
 

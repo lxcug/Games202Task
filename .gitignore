@@ -1,3 +1,7 @@
 hw4
 hw5
-/.idea
+.idea
+cmake-build-release-wsl
+cmake-build-debug-wsl
+cmake-build-release
+cmake-build-debug

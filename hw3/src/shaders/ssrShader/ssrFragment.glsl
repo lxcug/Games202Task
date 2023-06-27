@@ -126,7 +126,8 @@ vec3 EvalDiffuse(vec3 wi, vec3 wo, vec2 uv) {
   vec3 L = vec3(0.0);
   vec3 alebdo = GetGBufferDiffuse(uv);
   vec3 normal = normalize(GetGBufferNormalWorld(uv));
-  float dot = max(0., dot(normal, normalize(wi)));  // 不加max魔方边缘会出现黑边
+  // 不加max加入间接光照时骰子交界处颜色会变淡，因此靠近边缘的点法线会插值，可能会导致dot出现负值
+  float dot = max(0., dot(normal, normalize(wi)));
   L = alebdo * dot;
   return L;
 }
@@ -153,7 +154,7 @@ bool RayMarch(vec3 ori, vec3 dir, out vec3 hitPos) {
 
     float depth = GetDepth(currPos);
     float minDepth = GetGBufferDepth(uv);
-    if (depth - minDepth >= EPS) {
+    if (depth - minDepth > EPS) {
       hitPos = currPos;
       return true;
     }
@@ -166,7 +167,7 @@ bool RayMarch(vec3 ori, vec3 dir, out vec3 hitPos) {
 void main() {
   float s = InitRand(gl_FragCoord.xy);
 
-  vec3 L = vec3(0.0);
+  vec3 L = vec3(0.);
   vec2 uv = GetScreenCoordinate(vPosWorld.xyz);
   vec3 wi = uLightDir;
   vec3 wo = uCameraPos - vPosWorld.xyz;  // Directional Light的出射方向为shading point -> camera pos
@@ -178,7 +179,7 @@ void main() {
   for(int i = 0; i < SAMPLE_NUM; i++) {
     Rand1(s);
 
-    vec3 localDir = SampleHemisphereCos(s, pdf);
+    vec3 localDir = SampleHemisphereUniform(s, pdf);
     vec3 normal = GetGBufferNormalWorld(uv);
     vec3 b1, b2;
     LocalBasis(normal, b1, b2);
@@ -190,7 +191,7 @@ void main() {
       vec2 hitPosUV = GetScreenCoordinate(hitPos);
       vec3 hitPos2ShadingPoint = vPosWorld.xyz - hitPos;
       IndirL += EvalDirectionalLight(hitPosUV) * EvalDiffuse(wi, hitPos2ShadingPoint, hitPosUV)
-      * EvalDiffuse(sampleDir, wo, uv);
+      * EvalDiffuse(-hitPos2ShadingPoint, wo, uv);
     }
   }
   IndirL = IndirL / pdf / float(SAMPLE_NUM);
