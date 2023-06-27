@@ -126,7 +126,7 @@ vec3 EvalDiffuse(vec3 wi, vec3 wo, vec2 uv) {
   vec3 L = vec3(0.0);
   vec3 alebdo = GetGBufferDiffuse(uv);
   vec3 normal = normalize(GetGBufferNormalWorld(uv));
-  // 不加max加入间接光照时骰子交界处颜色会变淡，因此靠近边缘的点法线会插值，可能会导致dot出现负值
+  // 不加max加入间接光照时骰子交界处颜色会变淡，因为靠近边缘的点法线会插值，可能会导致dot出现负值
   float dot = max(0., dot(normal, normalize(wi)));
   L = alebdo * dot;
   return L;

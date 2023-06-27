@@ -97,7 +97,7 @@ $$
 
 **BSDF**: diffuse材质，首先读取GBuffer中的diffuse对应的albedo，然后乘上cosine term
 
-![](https://raw.githubusercontent.com/lxcug/imgs/main/imgs20230627224512.png)
+![](https://raw.githubusercontent.com/lxcug/imgs/main/imgs20230627230826.png)
 
 ### 2. Screen Space Ray Marching
 
