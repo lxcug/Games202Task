@@ -110,3 +110,92 @@ for循环的上限决定搜索hitPos的范围
 ![](https://raw.githubusercontent.com/lxcug/imgs/main/imgs20230627225308.png)
 
 ![](https://raw.githubusercontent.com/lxcug/imgs/main/imgs20230627225327.png)
+
+## 作业4 Microfacet BRDF
+
+### 1. Microfacet BRDF公式理解
+
+$$
+f(\boldsymbol{i}, \boldsymbol{o}) = \frac{F(\boldsymbol i, \boldsymbol h) G(\boldsymbol i, \boldsymbol o, \boldsymbol h) D(\boldsymbol h)}{4(\boldsymbol n, \boldsymbol i)(\boldsymbol n, \boldsymbol o)}\\
+\text{where }\boldsymbol h \text{is the half vector of } \boldsymbol i \text{ and }\boldsymbol o.
+$$
+
+> $F(\boldsymbol i, \boldsymbol h)$ aka Fresnel term决定不同入射角度时微表面模型的反射率.
+>
+> ![](https://raw.githubusercontent.com/lxcug/imgs/main/imgs20230629131950.png)
+>
+> 记入射光$\boldsymbol i$与微表面模型夹角为$\theta i$，折射光与法线家教为$\theta t$，则S波，P波的反射率分别为，
+>
+> ![](https://raw.githubusercontent.com/lxcug/imgs/main/imgs20230629132004.png)
+>
+> 取二者的平均值,
+> $$
+> R_{eff} = \frac{1}{2}(R_s + R_p)
+> $$
+> 对于电介质，其反射率随观察角度和法线夹角$\theta$增大而增大.
+>
+> <img src="https://raw.githubusercontent.com/lxcug/imgs/main/imgs20230629132110.png" style="zoom:67%;" />
+>
+> note: Microfacet model的反射都视为镜面反射，因此给定入射方向wi与出射方向wo，半程向量h就视为法线方向。
+>
+> 用Schlick近似Fresnel term，
+>
+> ![](https://raw.githubusercontent.com/lxcug/imgs/main/imgs20230629132518.png)
+
+> $D(\boldsymbol h)$ term aka Normal Distribution Function(NDF) 决定微表面法线的分布情况.
+>
+> GGX法线分布，
+> $$
+> D_{GGX}(\boldsymbol h) = \frac{\alpha^2}{\pi ((\boldsymbol n, \boldsymbol h)^2\cdot(\alpha^2-1)+1)^2}\\
+> \text{where } \alpha = roughness^2, \boldsymbol n \text{is the integral normal of the microfacet model.}
+> $$
+> roughness越大，微表面模型越接近diffuse，roughness越小，越glossy
+>
+> $Denote (n, h) = x$，对$x$求导，可以得到$D_{GGX}$随$x$增大而增大，即$\boldsymbol n$与$\boldsymbol h$夹角越小，$D_{GGX}$越大。
+
+> $G(\boldsymbol i, \boldsymbol o, \boldsymbol h)$ term aka Shadowing-Masking term(Geometry term).
+>
+> 当入射光或者出射光方向近乎与法线垂直时(物体边缘)，Microfacet BRDF的分母会趋近于0，导致物体边缘异常亮.
+>
+> 将G分为shadowing and masking两项，
+> $$
+> G(\boldsymbol i, \boldsymbol o, \boldsymbol n) = G_1(\boldsymbol i, \boldsymbol n) G_1(\boldsymbol o, \boldsymbol n)
+> $$
+> 如果把光线入射反向记作作$\boldsymbol i$，观察方向方向记$\boldsymbol o$，那么$G_1(\boldsymbol i, \boldsymbol h)$对应shadowing term，$G_1(\boldsymbol o, \boldsymbol h)$对应masking term.
+>
+> <img src="https://raw.githubusercontent.com/lxcug/imgs/main/imgs20230629145728.png" style="zoom:67%;" />
+
+### 2. Precompute $E_{\mu},\, E_{avg}$
+
+![](https://raw.githubusercontent.com/lxcug/imgs/main/imgs20230629151016.png)
+
+> $E_{\mu_0}$的推导
+>
+> ![](https://raw.githubusercontent.com/lxcug/imgs/main/imgsIMG_7927.JPG)
+
+> $E_{\mu}$ 因为要计算出射的总能量所以Fresnel term取1，代码是中是在半球上直接采样$w_i$，因此对应的积分用Monte-Carlo Integral表示为，
+> $$
+> I = E(\frac{fr\cdot cos(\theta_i)}{pdf})
+> $$
+> ![](https://raw.githubusercontent.com/lxcug/imgs/main/imgs20230629170644.png)
+
+> 反射的总能量为$E_{\mu_o}$，则损失的能量为$1-E_{\mu_o}$，考虑BRDF的对称性，改写为$c(1-E_{\mu_i})(1-E_{\mu_o})$，
+>
+> $E_{avg}$只是roughness的函数，不是出射方向V的函数，因此在IntegrateEmu中只要计算在该出射方向下的随机取样得到的函数均值，main函数中第二层循环遍历了$sin\theta$的值进行了黎曼和形式的积分.
+>
+> ![](https://raw.githubusercontent.com/lxcug/imgs/main/imgs20230629172315.png)
+
+### 3. 重要性采样计算$E_\mu,\, E_{avg}$
+
+TODO:
+
+### 4. PBRFragment.glsl
+
+实现GGX，GeometrySmith与FresnelSchlick，直接照抄Emu_MC.cpp中的实现.
+
+### 5. KullaContyFragment.glsl
+
+根据预计算的$E_{\mu}$与$E_{avg}$计算损失的能量对应的BDRF$f_{ms}$，对于有颜色的材质，会有自然存在的能量损失，因此在$f_{ms}$基础上再乘上一个系数$f_{add}$，最终的BRDF，
+$$
+f_r = f_{micro} + f_{add} \cdot f_{ms}
+$$
